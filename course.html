@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Course - E-logbook Responsive</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+       <section class="sub-header">
+         <nav>
+             <a href="index.html"><img src="./images/ndu_logo.png"></a>
+             <div class="nav-links" id="nav-Links">
+                 <i class="fa fa-times" onclick="hideMenu()"></i>
+                 <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./course.html">COURSES</a></li>
+                    <li><a href="backend/index.php">LOGIN</a></li>
+                    <li><a href="backend/index.php">REGISTER</a></li>
+                 </ul>
+             </div>
+             <i class="fa fa-bars" onclick="showMenu()"></i>
+         </nav>
+         <h1>Our Courses</h1>
+       </section>
+
+<!--------Course----------->
+
+<section class="course">
+    <h1>IT students that can apply</h1>
+    <p>All Industrial training students are eligible for this idea amd platform</p>
+
+<div class="row">
+    <div class="course-col">
+        <h3>Computer Science</h3>
+        <p>Computer science students can benefit from this electronic logbook by reporting their daily reults from training.</p>
+    </div>
+    <div class="course-col">
+        <h3>Engineering</h3>
+        <p>All engineering students including Petroleum, chemical, marine, computer,
+            civil, agricultural and mechanical can benefit from this electronic logbook by reporting their daily reults from training.</p>
+    </div>
+    <div class="course-col">
+        <h3>Microbiology</h3>
+        <p>Microbiology students can benefit from this electronic logbook by reporting their daily reults from training.</p>
+    </div>
+    <div class="course-col">
+        <h3>Biological Science</h3>
+        <p>Biological science students can benefit from this electronic logbook by reporting their daily reults from training.</p>
+    </div>
+    <div class="course-col">
+        <h3>Geology</h3>
+        <p>Geology students can benefit from this electronic logbook by reporting their daily reults from training.</p>
+    </div>
+</div>
+
+</section>
+
+<!--------facilities-----
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Loret Ipsum dolor dit amet, consectetur adipiscing elit.</p>
+
+  <div class="row">
+      <div class="facilities-col">
+          <img src="images/library.png">
+          <h3>World Class Library</h3>
+          <p>Lorem ipsum dolor sit amet, consectetor adipiscing elit.
+              Pellentesque aliquet turpis nulla.</p>
+      </div>
+      <div class="facilities-col">
+        <img src="images/basketball.png">
+        <h3>Largest Playground</h3>
+        <p>Lorem ipsum dolor sit amet, consectetor adipiscing elit.
+            Pellentesque aliquet turpis nulla.</p>
+    </div>
+    <div class="facilities-col">
+        <img src="images/cafeteria.png">
+        <h3>Tasty and Healthy Foods</h3>
+        <p>Lorem ipsum dolor sit amet, consectetor adipiscing elit.
+            Pellentesque aliquet turpis nulla.</p>
+    </div>
+  </div>    
+
+  ---->
+
+</section>
+
+
+<!--------footer----------->
+   
+<section class="footer">
+    <h4>About</h4>
+    <p>e-Logbook is a departure from the traditional way of IT reporting by bringing/closing the gap between the students and their supervisors. 
+        Many IT students ususally needed more attention than is given to them during their industrial training resulting in lukewarm attitude
+        on the part of students and a defeat on the aim of the IT in general. This problem may be correted by looking for a medium of continuous interaction 
+        between the supervisor and his/her students.
+
+    </p>
+     <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+     </div>
+     <p>2023. All Rights <i class="fa fa-heart-o"></i>Reserved</p>
+</section>
+
+
+
+
+
+<!--------------javascript for toggle Menu------->
+   <script>
+
+        var navLinks = document.getElementById("nav-Links");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+   </script>
+
+    </body>
+</html>
